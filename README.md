@@ -1,8 +1,8 @@
-# Hi, I'm Henrik 🌱
+# Hi, I'm Henrik 
 Welcome to my profile! I'm a software engineer based in the Norway.
 
-## Tech Stack
-![](https://skillicons.dev/icons?perline=7&i=js,ts,rust,mongodb,prisma,git,bun,nodejs,html,css,docker,sentry,jest,sqlite)
+## Tech i have worked with/am familiar with
+![](https://skillicons.dev/icons?perline=9&i=ts,docker,git,yarn,npm,nodejs,html,css,docker,jest,sqlite,java,php,figma,react,arduino,bun,cs,idea,mysql,php,postman,py,rider,vite,vscode)
 
 ## Metrics
 <picture><img src="/github-metrics.svg" alt="Metrics" draggable="false"></picture>
