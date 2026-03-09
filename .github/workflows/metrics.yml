@@ -13,10 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      TZ: Europe/Oslo
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           user: Nezerpz
           base: ""
