@@ -2,7 +2,7 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -21,7 +21,7 @@ jobs:
           user: Nezerpz
           base: ""
           base_skip: true
-          config_timezone: Europe/London
+          config_timezone: Europe/Oslo
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
